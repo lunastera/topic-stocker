@@ -1,0 +1,27 @@
+{
+  "name": "topic-stocker",
+  "description": "話題ストッカー - 気になるページを一時保存するブラウザ拡張機能",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt -b firefox --mv3",
+    "dev:chrome": "wxt -b chrome",
+    "build": "wxt build -b firefox --mv3",
+    "build:chrome": "wxt build -b chrome",
+    "zip": "wxt zip -b firefox --mv3",
+    "zip:chrome": "wxt zip -b chrome",
+    "prepare": "wxt prepare"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@wxt-dev/i18n": "^0.2.2",
+    "@wxt-dev/module-react": "^1.1.0",
+    "wxt": "^0.20.0",
+    "typescript": "^5.4.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0"
+  }
+}

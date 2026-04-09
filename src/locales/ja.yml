@@ -1,0 +1,6 @@
+ext_name: 話題ストッカー
+ext_description: 気になるページを一時保存するツール
+btn_stock: ストック
+msg_copied: URLをコピーしました
+msg_empty: ストックがありません
+aria_delete: 削除
